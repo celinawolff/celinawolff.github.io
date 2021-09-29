@@ -1,0 +1,83 @@
+<style>
+* {
+              box-sizing: border-box;
+}
+
+body {
+              margin: 0;
+              font-family: Arial, Helvetica, sans-serif;
+              background-color: #e6e6e6;
+}
+
+/* Style the side navigation */
+.sidenav {
+              height: 100%;
+              width: 200px;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              left: 0;
+              background-color: #d7d1c5;
+              overflow-x: auto;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+              color:black;
+              padding: 16px;
+              text-decoration: none;
+              display: block;
+              font-size: 100%;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+              background-color:white;
+              color: black;
+}
+/* Style the header */
+.header{
+              margin-left: 200px;
+              padding-left: 5px;
+              text-align: center;
+              background-color: #e6e6e6;
+              border-bottom: 3px solid black;         
+}
+
+/* Style the content */
+.content {
+              margin-left: 200px;
+              padding-left: 5px;
+              background-color: #e6e6e6;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+              float: left;
+              width: 20%;
+              padding: 5px;
+            }
+            
+/* Clear floats after image containers */
+            .row::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+            .right{
+              float:right;
+          }
+
+/* Clear floats after image containers */
+.body-section{
+              margin-left: 200px;
+              padding-left: 5px;
+              border-top: 5px;
+              background-color: #e6e6e6;
+}
+
+/* text floating next to eachother */     
+          .alignRight {
+              float: right;
+            }
+</style>

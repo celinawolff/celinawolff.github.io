@@ -1,0 +1,82 @@
+body {
+  
+background-color: #00163b;
+}
+
+ /* Style the overskrift 'Celina Simone Wolff' */
+ header h1 {
+  margin: 0.75cm;
+  padding: 2px;
+  text-align:center
+  font-size: 35px;
+  color:white;
+
+}
+
+
+ul {
+                list-style-type:none;
+                margin: 4;
+                padding: 4;
+                overflow: hidden;
+                background-color: rgba(245, 192, 46, 0.993);
+              }
+              
+              li {
+                float: left;
+              }
+              
+              li a {
+                display: block;
+                color:white;
+                text-align: center;
+                padding: 16px 18px;
+                text-decoration: none;
+              }
+              
+              /* Change the link color to #111 (black) on hover */
+              li a:hover {
+                background-color: #505dd686;
+              }
+
+Billede
+ .celina {
+  margin-right: 275mm;
+ }
+
+div{
+  list-style-type: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+  margin-left: 20mm;
+}
+
+h3{
+  color: white;
+  font-size: 20px;
+  margin-left: 20mm;
+}
+
+              /* Style the footer */
+              footer {
+                            background-color:#292d58;
+                            padding: 10px;
+                            text-align: center;
+                            color: white;
+                            margin-top: 20mm;
+              }
+
+              /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+              @media (max-width: 600px) {
+                            section {
+                                          -webkit-flex-direction: column;
+                                          flex-direction: column;
+                            }
+              }
+
+            
